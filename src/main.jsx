@@ -8,7 +8,7 @@ const client = new ApolloClient({
   uri: 'https://khoros-graphql-api.vercel.app/api/graphql',
   cache: new InMemoryCache(),
 });
-
+//mode change
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ApolloProvider client={client}>
